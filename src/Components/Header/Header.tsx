@@ -8,10 +8,10 @@ export default function Header() {
             <a href="#"><img src="" alt="Logo" /></a>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Benefícios</a></li>
+                    <li><a href="#">Comentários</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
         </header>

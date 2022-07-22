@@ -1,0 +1,27 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+form 
+    @include mixins.content-center
+    flex-direction: column
+    gap: 1.3em
+    width: 80%
+    padding: 4rem 0
+
+
+input
+    @include mixins.input
+
+input[type=submit]
+    background-color: variables.$base-color-secondary
+    border-color: variables.$base-color-secondary
+    border-radius: variables.$small-border-radius
+    font-size: 1em
+    font-weight: 600
+    color: variables.$text-color
+    cursor: pointer
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2)
+
+input[type=submit]:hover
+    color: variables.$text-color-secondary
+    background-color: #fff
